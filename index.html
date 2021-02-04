@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="icon" href="./artwork.png">  
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+ <!-- The video -->
+<video autoplay muted loop id="myVideo">
+    <source src="web_vid_2.mp4" type="video/mp4">
+  </video>
+  <script>
+    let video = document.getElementById("myVideo");
+    function stopVideo(){
+         video.pause();
+    }
+    $("#stop").on('click', function(){
+        stopVideo();
+    });
+</script>
+  
+  <!-- Optional: some overlay text to describe the video -->
+  <div class="navbar-content">
+    <h1>madelyn munsell</h1><h2>a thousand little deaths</h2>
+<div class="nav">
+    <a class="active" href="index.html">home</a>
+    <a href="listen.html">music</a>
+    <a href="shop.html">shop</a>
+  </div>
+</div>
+  </body>
+  <footer>
+     <div class ="footer">
+       <li> <a href="https://youtu.be/gGJfIpSvHW8">
+            <img alt="youtube" src="./icons/iconfinder_Rounded_Youtube3_svg_5282548.png" width="50" height="50">
+         </a>
+        </li>
+        <li><a href="https://open.spotify.com/artist/1qoaSfZKXciTeoavvpty8S?si=kpBsj6mzRDWK2mz3nx5Txg">
+            <img alt="spotify" src="./icons/iconfinder__spotify_2560361.png" width="50" height="50">
+         </a>
+        </li>
+        <li><a href="https://soundcloud.com/madelyn-munsell/sets/a-thousand-little-deaths-pt-i/s-AoeLDKEGEKI">
+            <img alt="soundcloud" src="./icons/iconfinder_soundcloud_312648.png" width="50" height="50">
+         </a>
+        </li>
+        <li><a href="https://www.facebook.com/madelynmunsell">
+            <img alt="facebook" src="./icons/iconfinder_Rounded_Facebook_svg_5282541.png" width="50" height="50">
+         </a>
+        </li>
+        <li><a href="https://twitter.com/madelynmunsell">
+            <img alt="twitter" src="./icons/iconfinder_Rounded_Twitter5_svg_5282551.png" width="50" height="50">
+         </a>
+        </li>
+        <li><a href="https://www.instagram.com/madelynmunsell/">
+            <img alt="instagram" src="./icons/iconfinder_Rounded_Instagram_svg_5282544.png" width="50" height="50">
+         </a>
+        </li>
+
+        </div>
+  </footer>
+
+</html>
