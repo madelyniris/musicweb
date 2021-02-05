@@ -128,16 +128,17 @@ input[type=text], select, textarea {
 
   .footer {
     position: fixed;
+    display: flex;
     bottom: 0;
     left: 0;
     right: 0;
     color: black;
     min-width: 50%;
-    display: flex;
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 10px;
-    padding-right: 600px;
-    padding-left: 375px;
+    padding-left: 20px;
+    padding-right: 90px;
     justify-content: space-between;
     background: rgba(129, 129, 128, 0.9);
    
@@ -145,6 +146,7 @@ input[type=text], select, textarea {
   .footer a {
     position: fixed;
     bottom: 0;
+    align-content: center;
     color: #f1f1f1;
    min-width: 5%;
   }
