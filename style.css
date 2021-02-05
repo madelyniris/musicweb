@@ -155,3 +155,13 @@ input[type=text], select, textarea {
     -webkit-filter: invert(2);
     filter: invert(2); 
   }
+
+  .music-stream {
+    display: flex;
+    justify-content: center;
+    
+    top: 5;
+    color: #f1f1f1;
+   min-width: 100%;
+    padding-top: 50px;
+  }

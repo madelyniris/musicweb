@@ -10,25 +10,16 @@
     
 
  <!-- The video -->
-<video autoplay muted loop id="myVideo">
+<video autoplay muted loop id="myVideo" onclick="playPause();">
     <source src="webvid.mp4" type="video/mp4">
-  </video>
-  <script>
-    let video = document.getElementById("myVideo");
-    function stopVideo(){
-         video.pause();
-    }
-    $("#stop").on('click', function(){
-        stopVideo();
-    });
-</script>
+</video>
   
   <!-- Optional: some overlay text to describe the video -->
   <div class="navbar-content">
     <h1>madelyn munsell</h1><h2>a thousand little deaths</h2>
 <div class="nav">
     <a class="active" href="index.html">home</a>
-    <a href="listen.html">music</a>
+    <a href="music.html">music</a>
     <a href="shop.html">shop</a>
   </div>
 </div>
